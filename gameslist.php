@@ -1,6 +1,6 @@
 <?php
 
-  $trova = "../img/";
+  $trova = "img/";
 
   $games = [
     [
@@ -18,7 +18,7 @@
     [
       'name' => 'Halo 3',
       'author' => 'Bungie',
-      'year' => '2007',
+      'year' => 2007,
       'poster' => $trova.'halo3.jpg'
     ],
     [
@@ -65,7 +65,7 @@
     ]
   ];
 
-  // header('Content-Type: application/json');
-  //
-  // echo json_encode($games);
+  header('Content-Type:application/json');
+
+  echo json_encode($games);
  ?>

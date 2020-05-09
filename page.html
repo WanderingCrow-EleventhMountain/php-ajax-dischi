@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <!-- <script src="https://kit.fontawesome.com/d99074f875.js" crossorigin="anonymous"></script> -->
+    <!-- handlebars -->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.png" alt="">
+    </header>
+    <main>
+
+
+    </main>
+
+    <!-- elemento creato tramite Handlebars -->
+    <script id="entry-template" type="text/x-handlebars-template">
+      <div class="entry">
+        <div class="pory">
+          <img src="{{cover}}">
+          <div><h2>{{name}}</h2></div>
+          <div><h3>{{author}}</h3></div>
+          <div><i>{{year}}</i></div>
+        </div>
+      </div>
+    </script>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- js -->
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
