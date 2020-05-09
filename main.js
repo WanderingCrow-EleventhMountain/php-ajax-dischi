@@ -13,7 +13,7 @@ $(document).ready(function(){
         var name = games[i].name;
         var author = games[i].author;
         var year = games[i].year;
-        var cover = games[i].cover;
+        var cover = games[i].poster;
 
         console.log(cover);
 
