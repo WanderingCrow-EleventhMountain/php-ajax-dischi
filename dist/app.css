@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+* body {
+  height: 100%;
+  background: #1e2d3b;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+* body header {
+  height: 72px;
+  width: 100%;
+  background: #2e3a46;
+  display: flex;
+  align-items: center;
+}
+
+* body header img {
+  width: 50px;
+  margin-left: 15%;
+}
+
+* body main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+* body main .pory {
+  background: #2e3a46;
+  height: 260px;
+  width: 150px;
+  margin-right: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #77787a;
+}
+
+* body main .pory h2 {
+  color: white;
+  font-size: 19px;
+}
+
+* body main .pory h3 {
+  font-size: 15px;
+}
+
+* body main .pory div {
+  width: 100%;
+  text-align: center;
+}
+
+* body main .pory img {
+  background-color: red;
+  height: 110px;
+  width: 110px;
+}
+

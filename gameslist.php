@@ -1,10 +1,10 @@
 <?php
 
-  $trova = "img/";
+  $trova = "../img/";
 
   $games = [
     [
-      'name' => 'Halo CE',
+      'name' => 'Halo: Combat Evolved',
       'author' => 'Bungie',
       'year' => 2001,
       'poster' => $trova.'haloce.jpg'
@@ -34,10 +34,10 @@
       'poster' => $trova.'pokemonscudo.jpg'
     ],
     [
-      'name' => 'Darksiders 2',
+      'name' => 'Darksiders ',
       'author' => 'THQ',
       'year' => 2015,
-      'poster' => $trova.'darksiders2.jpg'
+      'poster' => $trova.'darksiders.jpg'
     ],
     [
       'name' => "Asura's Wrath",
